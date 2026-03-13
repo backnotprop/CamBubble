@@ -2,7 +2,7 @@
 
 A tiny, free macOS app that floats a circular webcam bubble on your screen. No menubar, no chrome — just your face in a draggable circle, always on top.
 
-<video src="cam-bubble.mp4" width="600" autoplay loop muted playsinline></video>
+https://github.com/backnotprop/CamBubble/releases/download/v1.0/cam-bubble.mp4
 
 ## Why
 
