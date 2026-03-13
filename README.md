@@ -29,6 +29,8 @@ You want to record a demo or walkthrough with QuickTime (or any screen recorder)
 
 That's it. Drag the bubble wherever you want, start your QuickTime screen recording, and your face gets captured along with everything else.
 
+To quit, **right-click the bubble** and select "Quit CamBubble" (or Cmd+Q).
+
 ## Requirements
 
 - macOS 13+

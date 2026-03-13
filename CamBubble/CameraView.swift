@@ -32,6 +32,11 @@ struct CameraView: NSViewRepresentable {
         preview.connection?.isVideoMirrored = true
 
         session.startRunning()
+
+        let menu = NSMenu()
+        menu.addItem(withTitle: "Quit CamBubble", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        container.menu = menu
+
         return container
     }
 
