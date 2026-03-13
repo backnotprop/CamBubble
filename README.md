@@ -22,12 +22,16 @@ You want to record a demo or walkthrough with QuickTime (or any screen recorder)
 
 ## Install
 
-1. Clone this repo
-2. Open `CamBubble.xcodeproj` in Xcode
-3. Build and run (Cmd+R)
-4. Grant camera access when prompted
+```bash
+git clone https://github.com/backnotprop/CamBubble.git
+cd CamBubble
+xcodebuild -scheme CamBubble -configuration Release build
+cp -r ~/Library/Developer/Xcode/DerivedData/CamBubble-*/Build/Products/Release/CamBubble.app /Applications/
+```
 
-That's it. Drag the bubble wherever you want, start your QuickTime screen recording, and your face gets captured along with everything else.
+Or open `CamBubble.xcodeproj` in Xcode, build (Cmd+B), then drag `CamBubble.app` from Products into `/Applications`.
+
+Launch it, grant camera access when prompted, and drag the bubble wherever you want. Start your QuickTime screen recording and your face gets captured along with everything else.
 
 To quit, **right-click the bubble** and select "Quit CamBubble" (or Cmd+Q).
 
