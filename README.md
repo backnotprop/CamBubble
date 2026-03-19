@@ -3,11 +3,6 @@
 A tiny, free macOS app that floats a circular webcam bubble on your screen. No menubar, no chrome — just your face in a draggable circle, always on top.
 
 
-
-https://github.com/user-attachments/assets/d1cbd541-39d9-43b7-ab3a-73a239a75d6a
-
-
-
 ## Why
 
 You want to record a demo or walkthrough with QuickTime (or any screen recorder) and show your face too — but you don't want to buy software. Open CamBubble, start your screen recording, done.
